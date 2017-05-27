@@ -31,7 +31,7 @@ rollup({
   .then(function (bundle) {
     var code = bundle.generate({
       format: 'umd',
-      moduleName: 'flight-city',
+      moduleName: '{{ name }}',
       useStrict: false
     }).code
     return write('dist/index.es.js', code).then(function () {
