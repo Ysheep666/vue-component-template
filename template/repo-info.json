@@ -1,0 +1,21 @@
+{
+  "name": "{{ name }}",
+  "desc": "{{ description }}",
+  "type": "hfe-generator",
+  "group": "h5",
+  "version": "0.1.0",
+  "author": {
+    "name": "{{ user.name }}",
+    "email": "{{ user.email }}"
+  },
+  "publishType": "h5",
+  "root": "./build",
+  "port": "8899",
+  "ssi": false,
+  "timestamp": 1479360793374,
+  "useCombo": false,
+  "useHttps": true,
+  "toTest": [
+    "h5:prepub"
+  ]
+}

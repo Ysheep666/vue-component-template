@@ -1,0 +1,25 @@
+{
+  "prompts": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "Project name"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "label": "Project description",
+      "default": "A Vue.js component"
+    },
+    "user.name": {
+      "type": "string",
+      "required": true,
+      "label": "User name"
+    },
+    "user.email": {
+      "type": "string",
+      "required": true,
+      "label": "User email"
+    }
+  }
+}
