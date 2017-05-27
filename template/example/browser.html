@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html style="font-size: 312.5%">
+<head>
+    <%- include ./head.html -%>
+    <title>Component Demo</title>
+    <script src="./browser.js"></script>
+</head>
+
+<!-- NOTICE -->
+<!-- gallery将抓取本文件作为demo -->
+<!-- 用户试用组件时，可选择针对body部分进行在线修改试用 -->
+<!-- 因此，demo相关逻辑请放入body -->
+
+<body>
+
+    <div id="mth5v0" class="content">
+        <div id="bodyCont">
+            <!--组件示例代码-->
+            <any-name-you-want></any-name-you-want>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        new Vue({
+            el: '#bodyCont',
+            data: {
+            },
+            components: {
+                'any-name-you-want': demoComponent
+            },
+            directives: {
+                // 'any-name-you-want': demoComponent
+            },
+        });
+    </script>
+
+</body>
+</html>
+
