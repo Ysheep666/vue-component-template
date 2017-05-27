@@ -5,8 +5,8 @@
   "group": "h5",
   "version": "0.1.0",
   "author": {
-    "name": "{{ user.name }}",
-    "email": "{{ user.email }}"
+    "name": "{{ username }}",
+    "email": "{{ useremail }}"
   },
   "publishType": "h5",
   "root": "./build",

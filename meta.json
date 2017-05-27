@@ -11,12 +11,12 @@
       "label": "Project description",
       "default": "A Vue.js component"
     },
-    "user.name": {
+    "username": {
       "type": "string",
       "required": true,
       "label": "User name"
     },
-    "user.email": {
+    "useremail": {
       "type": "string",
       "required": true,
       "label": "User email"

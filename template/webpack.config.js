@@ -91,7 +91,7 @@ var styleLoaders = function (options) {
 var isGallary = packageJson['vue-type'] === 'vue-gallary';
 
 var html = glob.sync('./example/*.html').map(function (item) {
-    var htmlName = isGallary && !isNpmRunDev ?
+    var htmlName = isGallary && !isNpmRunDev && env !== 'development' ?
             packageJson.version + '_' + item.substr(10) : item.substr(10);
 
     return new HtmlWebpackPlugin({
