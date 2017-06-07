@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "{{ description }}",
   "keywords": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "platform-style": "MT,DP,DX",
   "directories": {
     "example": "examples"

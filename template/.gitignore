@@ -10,8 +10,4 @@ node_modules/*
 .sass-cache/
 .project
 mods/.sass-cache/
-build
-example
-gulp
-screenshots
-test
+
