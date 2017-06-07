@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "{{ description }}",
   "keywords": "",
-  "main": "src/index.js",
+  "main": "dist/index.min.js",
+  "pkg": "dist/index.es.js",
   "platform-style": "MT,DP,DX",
   "directories": {
     "example": "examples"
